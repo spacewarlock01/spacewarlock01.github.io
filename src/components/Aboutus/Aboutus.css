@@ -1,0 +1,26 @@
+.aboutus_div {
+    padding: 50px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.aboutus_div h1 {
+    padding-bottom: 20px;
+    color: #171717;
+    margin-right: 520px;
+}
+
+.aboutus_div .row .col img {
+    border: 15px solid #DA0037;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.aboutus_div .row .col h3 {
+    color: #171717;
+    padding: 20px;
+}
+
+.col {
+    padding: 5px;
+}

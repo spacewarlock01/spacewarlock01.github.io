@@ -1,0 +1,114 @@
+.signin2 {
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+.signin2_inputs {
+    padding: 64px 64px 10px 64px;
+}
+
+.signin2_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputlogin2 {
+    margin: 10px;
+    width: 400px;
+    min-height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonLogin2 {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 10px;
+    width: 400px;
+    min-height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.buttonLogin2:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.signin2_inputs_lock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+
+}
+
+.signin2_inputs_tomakeFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fa-lock {
+    color: #ffffff;
+}
+
+
+.signin_text h3 {
+    color:#ffffff;
+}
+
+.forgot_password {
+    display: inline;
+    margin-right: 102px;
+}
+
+.forgot_password a {
+    color: #ffffff;
+    font-size: smaller;
+} 
+
+.dont_signup{
+    display: inline;    
+}
+
+
+.dont_signup a{
+    color: #ffffff;
+    font-size: small;
+}
+
+.copyright {
+    padding: 50px;
+    color: whitesmoke;
+    font-size: smaller;
+}
+
+.copyright p span a {
+    color: whitesmoke;
+}
+
+
+.border {
+    position: absolute;
+    display: block;
+    top: -50%;
+    left: -50%;
+    z-index: -9;
+    display: block;
+    height: 200%;
+    width: 200%;
+    transform: rotate(-45deg);
+    overflow: hidden;
+    background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
+    background-size: 200% auto;
+    
+    animation: shine 3s linear infinite;
+  }

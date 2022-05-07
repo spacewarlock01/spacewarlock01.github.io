@@ -1,0 +1,46 @@
+.signup2 {
+    padding: 50px;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.signup2_box {
+    text-align: left;
+    margin: 15px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+.inputsignup2 {
+    width: 30%;
+    padding: 20px;
+}
+
+.signup2_teamchooseheading {
+    text-align: left;
+}
+
+.signup2_teamchooseheading span {
+    color: gray;
+    font-size: 12px;
+}
+
+.minus_button {
+    border: none;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.add_button {
+    border: none;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}

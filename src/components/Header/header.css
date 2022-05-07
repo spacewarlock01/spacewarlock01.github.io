@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+.header .header_logo{
+    width: 200px;
+    color: black;
+}
+
+.navbar {
+    padding: 0  !important;
+    background-color: #000000 !important;
+}
+
+.navbar-brand {
+    width: 40px !important; 
+    padding: 10px !important;
+}
+
+.header .header_button .header_button_Signin {
+    margin: 10px;
+    border: 2px solid white;
+    /* background-color: ; */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header .header_button .header_button_Signin:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.header .header_button .header_button_Signup {
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header .header_button .header_button_Signup:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.header_button_aboutus {
+    margin: 10px;
+    color: white !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#basic-navbar-nav {
+    color: #ffffff;
+}
+
+
+/* .navbar-brand img {
+    width: 150px;
+    height: 150px;
+} */
+
+

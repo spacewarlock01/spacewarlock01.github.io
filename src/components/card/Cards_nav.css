@@ -1,0 +1,45 @@
+.Cards{
+    display: flex;
+    flex-direction: row;
+    padding: 2.6rem;
+    gap: 3.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.card{
+    transition-duration: .2s;
+    background-color: #0e0e18e5;
+    color: white;
+    box-shadow: 1px 2px #9ca1e954;
+    
+}
+.heading{
+    color: white;
+}
+
+.card:hover{
+   color: #252529;
+   background-color: #ffffffe8;
+}
+
+.bg{
+    background-image: url('../../assets/ctf-bg2.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cardWrapper{
+    display: flex;
+    flex-direction: row;
+    /* padding: 2.6rem; */
+    gap: 3.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

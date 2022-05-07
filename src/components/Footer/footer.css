@@ -1,0 +1,37 @@
+#footer{
+    padding: 1px 200px 1px 200px;
+    background-color: black;
+    text-align: center;
+  }
+
+  #footer .footer_div{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  #footer .footer_div_companyname{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  #footer .Copyright{
+    padding-top: 50px;
+    color: white;
+  }
+  
+  #footer .font-awesome-copyright{
+    margin:50px 10px 1px 10px;
+    color: white;
+  }
+
+  #footer span{
+  font-weight: bolder;
+}
+
+#footer span:hover{
+  text-decoration: underline;
+}
