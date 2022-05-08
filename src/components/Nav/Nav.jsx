@@ -25,7 +25,9 @@ function Nav1() {
 					<Navbar.Brand href="/ctf">
 						<img src={Logo3} className="header_logo" alt="" />
 					</Navbar.Brand>
+					<Navbar.Text>
 					<h1>Capture The Flag</h1>
+					</Navbar.Text>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ml-auto header_button">

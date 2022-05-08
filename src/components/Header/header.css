@@ -10,9 +10,13 @@
     background-color: #000000 !important;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     width: 40px !important; 
     padding: 10px !important;
+} */
+
+.navbar-toggler {
+    background: aliceblue;
 }
 
 .header .header_button .header_button_Signin {
