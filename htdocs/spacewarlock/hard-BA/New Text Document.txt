@@ -1,0 +1,8 @@
+partial eclipse
+observatory	
+phase
+solstice	
+orbital inclination
+universe	
+zodiac	
+space station

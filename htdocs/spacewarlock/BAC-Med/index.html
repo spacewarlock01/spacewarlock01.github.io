@@ -1,0 +1,35 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+<script type="text/javascript">
+ function idForm(){
+   var selectvalue = $('input[name=choice]:checked', '#idForm').val();
+
+
+if(selectvalue == "pc"){
+window.open('http://localhost:9510/Space Warlock/spacewarlock/BAC-Med/LoginF.html','_self');
+return true;
+}
+else if(selectvalue == "ps2"){
+window.open('http://localhost:9510/Space Warlock/spacewarlock/BAC-Med/LoginS.html','_self');
+return true;
+}else if(selectvalue == 'ps3'){
+window.open('http://www.google.com','_self');
+return true;
+}else if(selectvalue == 'psp'){
+window.open('http://www.google.com','_self');
+return true;
+}
+return false;
+};
+
+
+</script>
+</head>
+<body>
+SPACEWARLOCK COLLEGE<br /><br />
+<form id="idForm">Your Choice &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" onclick="idForm()"  name="choice" value="pc"/>Teacher &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio"  onclick="idForm()" name="choice" value="ps2"/>Student &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</form>
+</body>

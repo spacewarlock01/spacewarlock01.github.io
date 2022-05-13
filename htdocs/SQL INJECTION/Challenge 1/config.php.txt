@@ -1,0 +1,12 @@
+<?php
+define('DBSERVER', 'localhost');
+define('DBUSERNAME', 'admin');
+define('DBPASSWORD', 'admin@1234');
+define('DBNAME', 'db_connect');
+
+$db = mysqli_connect(DBSERVER, DBUSERNAME, DBPASSWORD, DBNAME);
+
+if($db === false){
+	die("Error: Connection error. " . mysqli_connect_error());
+}
+?>

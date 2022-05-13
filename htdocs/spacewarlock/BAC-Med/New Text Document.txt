@@ -1,0 +1,14 @@
+<?php
+session_start();
+$r=session_id();
+
+/* SOME PIECE OF CODE TO AUTHENTICATE THE USER, MOSTLY SQL QUERY... */
+
+/* now registering a session for an authenticated user */
+$_SESSION['username']=$username;
+
+/* now displaying the session id..... */
+echo "the session id id: ".$r;
+echo " and the session has been registered for: ".$_SESSION['username'];
+
+?>
