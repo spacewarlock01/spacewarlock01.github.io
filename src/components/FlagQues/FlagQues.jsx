@@ -65,12 +65,22 @@ class FlagQues extends Component {
 
 	handleSubmit(event) {
 		event.preventDefault();
-
+		console.log(event.id);
 		if (this.state.flag === this.sol) {
-			window.alert('Well Done! COrrect Answer');
+			window.alert('Well Done! Correct Answer');
 		} else {
 			window.alert('Thats a wrong answer Try it again!');
 		}
+	}
+
+	handleBack(event) {
+		event.preventDefault();
+		let url = window.location.href;	
+		window.location.href = url.slice(0, url.lastIndexOf('/'));
+	}
+
+	formSubmit() {
+		console.log("Form submitted");
 	}
 
 
@@ -103,7 +113,7 @@ class FlagQues extends Component {
 			</Link>
 			
 				{/* <img src={Logo3} className="header_logo" style={{width: 200, marginRight:1800, }} alt="" /> */}
-				<form className="formFields" onSubmit={this.handleSubmit}>
+				<form className="formFields" onSubmit={this.formSubmit}>
 					<div className="formField" style={{marginTop:100}} >
 						<Link to={this.link || '//localhost:3000/ctf'} target="_blank">
 							<label className="formFieldLabel" style={{ color: "RebeccaPurple", textTransform: 'capitalize', fontSize: 25, fontFamily: "serif"}}>
@@ -125,8 +135,8 @@ class FlagQues extends Component {
 
 					<div className="formField">
 						{/* <a href="C:\Users\kshitij mehta\Desktop\Space Warlock" target="_blank" ><button type='button'>DownLoad</button></a> */}
-						<button  className="formFieldButton" style={{ fontSize: 15, marginRight: 50 }}>Back</button>{' '}
-						<button className="formFieldButton" style={{ fontSize: 15 }}>Submit</button>{' '}
+						<button  className="formFieldButton" onClick={this.handleBack} style={{ fontSize: 15, marginRight: 50 }}>Back</button>{' '}
+						<button className="formFieldButton" onClick={this.handleSubmit} style={{ fontSize: 15 }}>Submit</button>{' '}
 					</div>
 				</form>
 
